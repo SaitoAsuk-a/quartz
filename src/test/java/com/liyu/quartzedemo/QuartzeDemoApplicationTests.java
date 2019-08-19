@@ -21,6 +21,7 @@ public class QuartzeDemoApplicationTests {
                 System.out.println(System.currentTimeMillis());
             }
         };
+
         timer.schedule(timerTask,5000);
         System.out.println("----"+System.currentTimeMillis());
         Thread.sleep(10000);
